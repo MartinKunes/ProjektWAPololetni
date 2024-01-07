@@ -11,7 +11,7 @@ http://socketo.me/
 ----------------------------
 spuštění na localhost:
 
-1. stažený rozbalený soubor vložíte do složky xampp\htdocs
+1. staženýrozbalený soubor zkouska vložíte do složky xampp\htdocs
 2. druhý soubor register vložíte do složky xampp\mysql\data
 3. Soubor zkouska si otevřete v kódovacím programu
 4. Zapněte si xampp control panel a spusťte apache a mysql
@@ -26,7 +26,7 @@ Aplikace je online chat, kde můžete vytvářet místnosti a komunikovat s osta
 
 ------------------------------------------------
 
-RestApi není, protože mi nešel nainstalovat slim framwork a nebyl čas hledat problém z důvodu ostatních projektů.
+RestApi není, protože mi nešel nainstalovat slim framework a nebyl čas hledat problém z důvodu ostatních projektů.
 
 ------------------------
 Websocket se zde používá pro implementaci chatovacího serveru. Umožňuje chatování v reálném čase a okamžité přenosy informací. Vytváří připojení k serveru, který běží na portu 8080. Poté otevře spojení a komunikuje se serverem a posílá si informace. Informace ze serveru přijímá data v JSON a zpracuje je. 
